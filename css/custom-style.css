@@ -1,0 +1,15 @@
+a.login-btn {
+    margin: 30px;
+    float: right;
+    margin-right: 13px;
+    border-radius: 33px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(45deg, #035cd8 0%, #04a84e 100%);
+  }
+
+
+.align{
+  box-shadow: 10px 10px 5px 12px dodgerblue;
+
+}
+
