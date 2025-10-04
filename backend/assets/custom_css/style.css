@@ -1,0 +1,67 @@
+
+
+/* staff page edit button css */
+
+
+/* button.btn.btn-danger.btn-sm.deletebtn {
+  margin-left: 10px;
+} */
+
+.btn .btn-danger .unavaiable{
+  width: 118px;
+}
+a.edit{
+    margin-left: 6px;
+    color: white;
+}
+.pagination{
+    /* border: 1px solid black; */
+    margin-left: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 2px;
+  }
+  .grid-item {
+    font-size: 10px;
+    text-align: center;
+  }
+
+abbr[data-title] {
+  position: relative;
+  text-decoration: underline dotted; 
+}
+abbr[data-title]:hover::after,
+abbr[data-title]:focus::after {
+  content: attr(data-title);
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  transform: translateX(-50%);
+  width: auto;
+  white-space: nowrap;
+  background: #30272a;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.4);
+  font-size: 14px;
+  padding: 3px 5px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
+  /* margin: 5px; */
+  /* gap: 8px; */
+  /* gap: 10px; */
+}
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
