@@ -190,7 +190,7 @@ try {
 
 	$mail->send();
 	echo '<div class="success">Message has been sent</div>';
-	echo '<script>alert("Message has been sent. User will contact you soon");</script>';
+	echo '<script>alert("Message has been sent.");</script>';
 } catch (Exception $e) {
 	echo '<div class="alert">Message Could Not sent</div>';
 	echo '<script>alert("Message Could Not sent");</script>';
