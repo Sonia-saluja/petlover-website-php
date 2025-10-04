@@ -1,6 +1,3 @@
-# petlover-website-php
-A Core PHP-based Pet Lover Management System with frontend and backend modules.
-
 # Pet Lovers Website
 
 A comprehensive pet shop management system built with PHP and MySQL, featuring a customer-facing website and an admin panel for managing pets, orders, and inventory.
@@ -105,7 +102,6 @@ pet-lovers-website/
 │   └── includes/
 ├── frontend/
 │   └── includes/
-├── css/
 ├── js/
 ├── images/
 ├── scss/
