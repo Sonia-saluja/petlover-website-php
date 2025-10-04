@@ -153,7 +153,7 @@ use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
 require 'PHPmailer/Exception.php';
-require 'PHPmailer/PHPmailer.php';
+require 'PHPmailer/PHPMailer.php';
 require 'PHPmailer/SMTP.php';
 
 //Create an instance; passing `true` enables exceptions
@@ -165,14 +165,14 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'sunnykumar62162@gmail.com';                     //SMTP username
-    $mail->Password   = 'sjmj dkyq bjyc miik';                               //SMTP password
+    $mail->Username   = 'soniasaluja50@gmail.com';                     //SMTP username
+	$mail->Password   = 'aagl hspw umyn aaem';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('sunnykumar62162@gmail.com', 'Website');
-    $mail->addAddress('sunnykumar62162@gmail.com', 'Our website');     //Add a recipient
+    $mail->setFrom('soniasaluja50@gmail.com', 'Website');
+    $mail->addAddress('soniasaluja50@gmail.com', 'Our website');     //Add a recipient
     // $mail->addAddress('ellen@example.com');               //Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');
@@ -188,10 +188,12 @@ try {
     $mail->Body    = "Full Name - $name <br> Email - $email <br> Subject - $subject <br> Message - $message";
     // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-    $mail->send();
-    echo '<div class="success">Message has been sent</div>';
+	$mail->send();
+	echo '<div class="success">Message has been sent</div>';
+	echo '<script>alert("Message has been sent. User will contact you soon");</script>';
 } catch (Exception $e) {
 	echo '<div class="alert">Message Could Not sent</div>';
+	echo '<script>alert("Message Could Not sent");</script>';
 }
 
 
